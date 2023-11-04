@@ -13,6 +13,9 @@ Modelo conceitual:
 Estruturado em banco de dados através de Diagrama Entidade e relacionamento.
 ![Modelo Conceitual](https://github.com/JuliaSilva75/Gest-o-de-Aprendizagem/blob/main/IMG/Modelo%20Conceitual.jpeg?raw=true)
 
+Modelo Lógico:
+(https://github.com/JuliaSilva75/Gest-o-de-Aprendizagem/blob/main/IMG/Modelo%20L%C3%B3gico.jpeg?raw=true)
+
 Criação de tabelas alterações de coluna:
 ( https://github.com/JuliaSilva75/Gest-o-de-Aprendizagem/blob/main/IMG/Faxineiro_Imaplac%C3%A1vel.jpg?raw=true)
 
