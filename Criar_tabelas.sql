@@ -1,7 +1,3 @@
--- create database Gestao_aprendizagem
--- USE Gestao_aprendizagem;
-
---- create database Gestao_aprendizagem
 -- USE Gestao_aprendizagem;
 
 --  if not exists (criar tabela se não existir)
@@ -98,6 +94,11 @@ ID_Professor INT,
 foreign key  (ID_Professor) references Professor(ID_Professor)
 );
 
+insert Into gestao_aprendizagem.Curso (Nome_curso,Data_inicio,Data_Termino) values ('Inglês','2023-01-21','2025-12-21');
+insert Into gestao_aprendizagem.Curso (Nome_curso,Data_inicio,Data_Termino) values ('francês','2022-02-01','2024-12-21');
+insert Into gestao_aprendizagem.Curso (Nome_curso,Data_inicio,Data_Termino) values ('Italiano','2023-01-21','2025-12-21');
+
+
 -- Excluindo coluna ID_Curso
 alter table curso
 Drop column ID_Curso;
@@ -130,6 +131,10 @@ foreign key (ID_Aluno) references Aluno(ID_Aluno)
 
 );
 
+insert Into gestao_aprendizagem.Aula (Materia) values ('Francês');
+insert Into gestao_aprendizagem.Aula (Materia) values ('Inglês');
+insert Into gestao_aprendizagem.Aula (Materia) values ('Italiano');
+
 -- TAbela feedback
 
  Create table if not exists Feedback (
@@ -143,6 +148,10 @@ foreign key (ID_Aluno) references Aluno(ID_Aluno)
 
 );
 
+insert into gestao_aprendizagem.Feedback(Nota,Comentarios) values (5 ,'Bom curso');
+insert into gestao_aprendizagem.Feedback(Nota,Comentarios) values (4 ,'otimo aprendizado');
+insert into gestao_aprendizagem.Feedback(Nota,Comentarios) values (5 ,'boa Metodologia ');
+insert into gestao_aprendizagem.Feedback(Nota,Comentarios) values (2 ,' Professores capacitados');
 
 -- Tabela Registro_Ativ
 
@@ -169,4 +178,3 @@ ID_Aula INT,
 Foreign Key (ID_Aula) references AULA(ID_Aula),
 ID_Registro_Ativ INT,
 Foreign Key(ID_Registro_Ativ) references  Registro_Ativ (ID_Registro_Ativ)
-);
