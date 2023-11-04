@@ -19,3 +19,7 @@ Modelo Lógico:
 Criação de tabelas alterações de coluna:
 ![Correções]( https://github.com/JuliaSilva75/Gest-o-de-Aprendizagem/blob/main/IMG/Faxineiro_Imaplac%C3%A1vel.jpg?raw=true)
 
+Subconsultas:
+
+![CSubconsultas](https://github.com/JuliaSilva75/Gest-o-de-Aprendizagem/blob/main/IMG/Subconsultas.jpg?raw=true)
+
